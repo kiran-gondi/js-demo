@@ -1,3 +1,49 @@
+/*'use strict';
+
+let productId = 1234;
+console.log(productId);
+console.log(window.productId);*/
+
+// productId = 456;
+// console.log(productId);
+
+// let productId = 123;
+
+// showProductId();
+// function showProductId(){
+//     console.log(222);
+// }
+
+//Passes
+// 1. function should call showProductId()
+// 2. it should call the program from star/top to down.
+
+
+/*function showProductId(){
+    let productId = 111;
+
+    function fix(){
+        let productId = 222;
+        console.log('in fix: ', productId);
+    }
+    fix();
+
+    console.log('in showProductId: ', productId);
+}
+showProductId();*/
+
+//let productId = 123;
+// const app = {
+//     productId: 111,
+//     userName: 'Joe',
+//     orderNumber : 1232
+// };
+
+// function showProductId(){
+//     console.log(app.productId);
+// }
+// showProductId();
+
 // const conatiners = document.getElementsByClassName('container');
 // conatiners[3].classList.add('d-none');
 // console.log(conatiners);
