@@ -6,3 +6,5 @@ let price = 45.54,
 
 showMessage(welcome);
 
+//var, let & naming variables
+
