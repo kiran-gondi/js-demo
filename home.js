@@ -1,3 +1,59 @@
+// const conatiners = document.getElementsByClassName('container');
+// conatiners[3].classList.add('d-none');
+// console.log(conatiners);
+
+// const values = ['a', 'b', 'c'];
+// //forEach
+// values.forEach(function(item){
+//     console.log(item);
+// });
+
+// const values = ['a', 'bbb', 'c'];
+// //find()
+// const found = values.find(function(item){
+//     //console.log('item: ', item);
+//     return item.length > 1;
+// });
+// console.log(found);
+
+//const values = ['a', 'b', 'c', 'y', 'z'];
+//filter()
+// const set = values.filter(function(item){
+//     console.log('item: ', item);
+//     return item > 'b';
+// });
+// console.log(set);
+
+//indexOf()
+// console.log(values.indexOf('b'));
+// console.log(values.indexOf('r'));
+
+// const values = ['a', 'b', 'c', 'd', 'e'];
+// //const newValues =  values.slice(1, 4);
+// //const newValues = values.slice();
+// //const newValues = values.splice(2, 2);
+// values.splice(2, 1 ,'hello');
+// //console.log(newValues);
+// console.log(values);
+
+// const values = ['a', 'b', 'c'];
+// console.log(values);
+// console.log(typeof values);
+// console.log(Array.isArray(values));
+// console.log(values[0]);
+// values[0] = 'aaa';
+// console.log(values[0]);
+// console.log(values[012]);
+
+//values.push('d', 'e');
+// const last = values.pop();
+// console.log(values, last);
+
+// const first = values.shift();
+// console.log(values, first);
+// values.unshift('hello', 'world');
+// console.log(values);
+
 /*const button = document.getElementById('see-review');
 
 button.addEventListener('click', function(){
