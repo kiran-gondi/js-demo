@@ -1,4 +1,92 @@
-changePercentOff(20);
+/*const button = document.getElementById('see-review');
+
+button.addEventListener('click', function(){
+    const review = document.getElementById('review');
+
+    if(review.classList.contains('d-none')){
+        review.classList.remove('d-none');
+        button.textContent = 'CLOSE REVIEW';
+    }else{
+        review.classList.add('d-none');
+        button.textContent = 'SEE REVIEW';
+    }
+    
+});*/
+
+// const button = document.getElementById('see-review');
+
+// button.addEventListener('click', function(){
+//     console.log('click');
+// });
+
+// const header = document.getElementById('message');
+// header.style.color = 'blue';
+// header.style.fontWeight = '800';
+
+// let s = 'Hello';
+// showMessage(s.charAt(0));
+
+// let now = new Date();
+// showMessage(now.toDateString());
+// showMessage(Math.abs(-23));
+
+/*
+//Passing Objects to Functions
+let person = {
+    name: 'John',
+    age: 32,
+    partTime: false
+};
+
+function incrementAge(person){
+    person.age++;
+}
+
+incrementAge(person);
+showMessage(person.age);*/
+
+/*
+//Passing Objects to Functions
+let message = 'Hello';
+
+function changeMessage(message){
+    message = 'Hi!';
+}
+
+changeMessage(message);
+
+showMessage(message);*/
+
+/*let person = {
+    name: 'john',
+    age: 32,
+    parttime: false,
+    showInfo: function(realAge){
+        //showMessage('in showInfo');
+        showMessage(this.name + ' is ' + realAge);
+    }
+};
+
+//person.showInfo(34);
+showMessage(typeof person.showInfo);*/
+
+
+/*let mySymbol = Symbol();
+
+let person = {
+    name: 'john',
+    age: 32,
+    parttime: false,
+    [mySymbol]: 'secretInformation'
+};
+person.age = 34;
+person['age'] = 44;
+
+showMessage(person.age);
+showMessage(person[mySymbol]);
+console.log(person[mySymbol]);*/
+
+//changePercentOff(20);
 
 /*let key = 42;
 
